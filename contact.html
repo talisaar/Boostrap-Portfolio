@@ -3,95 +3,151 @@
 
 <head>
 <meta charset="UTF-8">
-  <link rel="stylesheet" type="text/css" href="assets/css/reset.css">
+
+<script
+  src="https://code.jquery.com/jquery-3.2.1.js"
+  integrity="sha256-DZAnKJ/6XZ9si04Hgrsxu/8s717jcIzLy3oi35EouyE="
+  crossorigin="anonymous"></script>
+
+<!-- Latest compiled and minified CSS -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css" integrity="sha384-BVYiiSIFeK1dGmJRAkycuHAHRg32OmUcww7on3RYdg4Va+PmSTsz/K68vbdEjh4u" crossorigin="anonymous">
+
+<!-- Optional theme -->
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap-theme.min.css" integrity="sha384-rHyoN1iRsVXV4nD0JutlnGaslCJuC7uwjduW9SVrLvRYooPp2bWYgmgJQIXwl/Sp" crossorigin="anonymous">
+
+<!-- Latest compiled and minified JavaScript -->
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js" integrity="sha384-Tc5IQib027qvyjSMfHjOMaLkfuWVxZxUPnCJA7l2mCWNIpG9mGCD8wGNIcPD7Txa" crossorigin="anonymous"></script>
+
+<link rel="stylesheet" type="text/css" href="assets/css/reset.css">
   <link rel="stylesheet" type="text/css" href="assets/css/style.css">
   <title>Let's crush this portfolio!</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
 </head>
 
+
+<header>
+		<nav class="navbar navbar-default">
+		  <div class="container-fluid">
+		    <!-- Brand and toggle get grouped for better mobile display -->
+		    <div class="navbar-header">
+		      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#bs-example-navbar-collapse-1" aria-expanded="false">
+		        <span class="sr-only">Toggle navigation</span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		        <span class="icon-bar"></span>
+		      </button>
+		     <a class="navbar-brand" id="talisaar" href="index.html"><h1 id="name-tag">Tali Saar</h1></a>
+		    </div>
+
+		    <!-- Collect the nav links, forms, and other content for toggling -->
+		    <div class="collapse navbar-collapse" id="bs-example-navbar-collapse-1">
+		     
+		      <ul class="nav navbar-nav navbar-right">
+		        <li class="navbar_right_li"><a href="index.html">About</a></li>
+		        <li class="navbar_right_li"><a href="portfolio.html">Portfolio</a></li>
+		        <li class="navbar_right_li"><a href="contact.html">Contact</a></li>
+		       
+		      </ul>
+		    </div><!-- /.navbar-collapse -->
+		  </div><!-- /.container-fluid -->
+		</nav>
+</header>
+
 <body>
 
-	<header>
-	<div id="nav">
-		<div id="name_block">
-		<a href="index.html"><h1 style="color:#FFFFFF">Tali Saar</h1></a>
-		</div>
+<div class="row"> 
 
-		<div id="button_container">
-		<ul>
-  			<li><a href="index.html">About</a></li>
-  			<li><a href="portfolio.html">Portfolio</a></li>
- 			 <li><a href="contact.html">Contact</a></li>
-		</ul>
-		</div>
-	</div>
-	</header>
 
-<div id="footer_container">
-
-<div id="container">
-	
-	<div id="mobile_nav">
-		<ul id="mobile_nav_ul">
-  			<li class="mobile_nav_li"><a class="mobile_nav_link" href="index.html">About</a></li>
-  			<li class="mobile_nav_li"><a class="mobile_nav_link" href="portfolio.html">Portfolio</a></li>
- 			 <li class="mobile_nav_li" id="mobile_nav_li_contact"><a class="mobile_nav_link" href="contact.html">Contact</a></li>
-		</ul>
-	</div>
-
-	<div id="contact">
-			
-				<div id="contact_header">
-					<h1>Contact</h1>
-					<hr>
-					<br>
+			<div class="col-md-1">
+				<div class="left_side">
 				</div>
-		
-				<div id="contact_content">
-					<form>
-  					Name<br>
-  					<input type="textarea" name="name" placeholder="e.g John Smith"><br>
-  					Email<br>
-  					<input type="textarea" name="email" placeholder="email@example.com"><br>
-  					Message<br>
-  					<textarea id="textarea" placeholder="Enter a message"></textarea><br>
-					<button class="button" type="button">Submit</button>
-					</form>
-	</div>
+			</div>
 
-	<div class="clear"><br></div>
+			<div class="col-md-7" id="contact_main">
+				<div class="main_cont">
 
-	</div>
+							<div id="contact_header">
+								<h1>Contact</h1>
+								<hr>
+								<br>
+							</div>
+					
+							<div id="contact_content">
+								<form>
+			  					Name<br>
+			  					<input type="textarea" name="name" placeholder="e.g John Smith"><br>
+			  					Email<br>
+			  					<input type="textarea" name="email" placeholder="email@example.com"><br>
+			  					Message<br>
+			  					<textarea id="textarea" placeholder="Enter a message"></textarea><br>
+								<button class="button" type="button">Submit</button>
+								</form>
+								</div>
+
+							<div class="clear"><br></div>
+				</div>
+			</div>
+
+			<div class="col-md-3">
+			
+
+					<div class="row"> 
+
+						<div class="col-md-12" id="test">
+
+									<div id="side_bar_header">
+										<h2>Connect with me</h2>
+										<hr>
+									</div>
+						</div>
+					</div>
 
 
-	<div id="side_bar">
-		<div id="side_bar_header">
-		<h3>Connect with me</h3>
-		<hr>
-		</div>
+					<div class="row"> 
 
-		<div id="side_bar_icons">
-		<a href="https://github.com/talisaar/" target="_blank"><img class="icon" id="github" src="assets/images/github.png" height="50" width="50"></a>
-		<a href="https://www.linkedin.com/in/talisaar/" target="_blank"><img class="icon" id="linkedin" src="assets/images/linkedin.png" height="50" width="50"></a>
-		<a href="https://stackoverflow.com/users/2253363/talisaar" target="_blank"><img class="icon" id="stackoverflow" src="assets/images/stackoverflow.png" height="50" width="50"></a>
+									<div class="col-md-4" id="test">
 
-		</div>
-	</div>
-									<div class="clear"><br><br><br></div>
+										<a href="https://github.com/talisaar/" target="_blank"><img id="github" class="side_icon" src="assets/images/github.png" height="50" width="50"></a>
+										
+									</div>
+
+									<div class="col-md-4" id="test">
+
+									<a href="https://www.linkedin.com/in/talisaar/" target="_blank"><img class="side_icon" id="linkedin" src="assets/images/linkedin.png" height="50" width="50"></a>
+
+									</div>
+
+									<div class="col-md-4" id="test">
+
+									<a href="https://stackoverflow.com/users/2253363/talisaar" target="_blank" class="side_icon"><img class="icon" id="stackoverflow" src="assets/images/stackoverflow.png" height="50" width="50"></a>
+
+					</div>
 
 
+			</div>
+
+
+			<div class="col-md-1">
+				<div class="right_side">
+				</div>
+			</div>
 
 </div>
-<footer>
-<p style="text-align: center; color: #BBBBBB;">(c) Tali Saar</p>
-</footer>
 
+<div class="row"> 
+<div class="col-md-12">
 
+		<footer class="footer">
+      		<div class="container">
+        		<p class="text-muted">(c) Tali Saar</p>
+      		</div>
+   		 </footer>
 </div>
-
+</div>
 
 
 
 </body>
+
 </html>
